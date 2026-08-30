@@ -61,6 +61,7 @@ export default function Login() {
                 type="text"
                 autoComplete="username"
                 placeholder="Your username"
+                value="testingEmail@abc.com"
                 className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-accent focus:ring-1 focus:ring-accent"
               />
               <p className="text-red-700 mt-1">{errors.userName?.message}</p>
@@ -79,6 +80,7 @@ export default function Login() {
                 type="password"
                 autoComplete="current-password"
                 placeholder="••••••••"
+                value="12345678"
                 className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none focus:border-accent focus:ring-1 focus:ring-accent"
               />
               <p className="text-red-700 mt-1">{errors.password?.message}</p>
